@@ -106,13 +106,17 @@ def generate_launch_description():
                         
                         f'/{name}/camera/image_raw@sensor_msgs/msg/Image[gz.msgs.Image',
 
+                        f'/model/{name}/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry'
                     ],
                     output="screen",
                     parameters=[{'use_sim_time': use_sim_time}],
                     remappings=[
                         (f'/model/{name}/tf', '/tf'),
                         (f'/world/empty/model/{name}/joint_state', f'/{name}/joint_states'),
-                        ('/scan', 'scan')
+                        (f'/model/{name}/cmd_vel', f'/{name}/cmd_vel'),
+                        ('/scan', 'scan'),
+                        (f'/model/{name}/odometry', f'/{name}/odom')
+                        
                     ]
                 ),
 
