@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="$(arg robot_name)" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:arg name="robot_name" default="robot1"/>
+    <xacro:property name="robot_name" value="$(arg robot_name)"/>
+    
+    <xacro:include filename="common_properties.xacro"/>
+    <xacro:include filename="mobile_base.xacro"/>
+    <xacro:include filename="mobile_base_gazebo.xacro" />
+
+    <xacro:include filename="lidar.xacro"/>
+    <xacro:include filename="camera.xacro"/>
+
+    
+
+    <!-- <xacro:include filename="arm_gazebo.xacro"/>
+    <xacro:include filename="arm.xacro"/> -->
+    <!-- <joint name="mobile_base_arm_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="arm_base_link"/>
+        <origin xyz="${base_length / 4.0} 0.0 ${base_height}" rpy="0.0 0.0 0.0"/>
+    </joint> -->
+</robot>

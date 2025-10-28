@@ -1,0 +1,25 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/adem-vishal/Desktop/ros2_ws/build/turtlesim_catch_them_all",
+        "/home/adem-vishal/Desktop/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages",
+        "/home/adem-vishal/Desktop/ros2_ws/build/practice_py_pkg",
+        "/home/adem-vishal/Desktop/ros2_ws/install/practice_py_pkg/lib/python3.12/site-packages",
+        "/home/adem-vishal/Desktop/ros2_ws/build/my_py_pkg",
+        "/home/adem-vishal/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/adem-vishal/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/home/adem-vishal/Desktop/workshop/install/lfr/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/adem-vishal/Desktop/ros2_ws/build/turtlesim_catch_them_all",
+        "/home/adem-vishal/Desktop/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages",
+        "/home/adem-vishal/Desktop/ros2_ws/build/practice_py_pkg",
+        "/home/adem-vishal/Desktop/ros2_ws/install/practice_py_pkg/lib/python3.12/site-packages",
+        "/home/adem-vishal/Desktop/ros2_ws/build/my_py_pkg",
+        "/home/adem-vishal/Desktop/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/adem-vishal/Desktop/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/home/adem-vishal/Desktop/workshop/install/lfr/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "ros.distro": "jazzy"
+}
